@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RainbowTrail")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68de7f5af9004ccf4add1593ecf9f7c4c366fdb2")]
 [assembly: System.Reflection.AssemblyProductAttribute("RainbowTrail")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RainbowTrail")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

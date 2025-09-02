@@ -8,8 +8,9 @@ namespace RainbowTrail
 {
     public class Core : MelonMod
     {
-        public override void OnInitializeMelon()
+        public override void OnSceneWasLoaded(int buildIndex, string sceneName)
         {
+            if (sceneName != "slopeSandbox") { return; }
             TrailRenderer trail = GameObject.Find("Sphere").GetComponentInChildren<TrailRenderer>();
             Gradient gradient = new();
             gradient.SetKeys(
